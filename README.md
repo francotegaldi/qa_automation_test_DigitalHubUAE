@@ -6,7 +6,7 @@ Standing in the root folder, you just need to first build the docker image for t
 ```
 docker build . --tag test
 ```
-Note: I added a tag for practicity, it is later used in docker-compose
+Note: I added a tag for practicity, it is later used in docker-compose.
 Then, we run the docker compose file which has the selenium hub and our tests image
 ```
 docker-compose up
