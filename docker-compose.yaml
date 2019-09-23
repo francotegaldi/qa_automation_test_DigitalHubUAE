@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+
+  chrome:
+    image: selenium/standalone-chrome:3.141.59
+    ports:
+      - 4444:4444
+
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - chrome
+    ports:
+      - '8000:8000'

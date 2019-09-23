@@ -1,0 +1,19 @@
+{
+  "auth": {
+    "api_key": "f4de9f5be51f8326a04b5a2e0e380f52",
+    "token": "1d8b0a8c8241fac0584fe3afb0575209388d4e9174eaae01d07d6c02fe25d471"
+    },
+  "second_challenge": {
+    "board": "5d8815d5f8a1d50d79db422a",
+    "card_name": "second challenge card"
+  },
+  "third_challenge": {
+    "credentials": {
+      "email": "qacodechallenge@gmail.com",
+      "password": "p4ssw0rd"
+    },
+    "board_name": "third challenge board",
+    "list_name": "third challenge list",
+    "card_name": "third challenge card"
+  }
+}
