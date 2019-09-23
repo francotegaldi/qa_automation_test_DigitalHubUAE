@@ -3,10 +3,14 @@ First of all I wanted to thank you all for taking the time to consider and revie
 
 ## How to run
 Standing in the root folder, you just need to first build the docker image for the test:
+```
 docker build . --tag test
-Note: I added a tag for practicity
+```
+Note: I added a tag for practicity, it is later used in docker-compose
 Then, we run the docker compose file which has the selenium hub and our tests image
+```
 docker-compose up
+```
 And that's it! you can view the logs for the test image to see exactly what's happening
 
 ## Notes and comments
