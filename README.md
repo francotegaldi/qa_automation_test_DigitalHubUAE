@@ -7,6 +7,7 @@ Standing in the root folder, you just need to first build the docker image for t
 docker build . --tag test
 ```
 Note: I added a tag for practicity, it is later used in docker-compose.
+
 Then, we run the docker compose file which has the selenium hub and our tests image
 ```
 docker-compose up
@@ -21,4 +22,4 @@ And that's it! you can view the logs for the test image to see exactly what's ha
   - The docker image could be custom, both the selenium ones and the one with the tests. The docker compose file calls docker hub images and while this is a common thing, there are things I would do myself if I could.
   - The setup methods could be more complex, I really simplified the pytest fixtures for the sake of simplicity. They do their job but I am well aware that they are not as optimal.
   
-The net work time I employed of this project was around 5-6 hs.
+The net work time I employed on this project was around 5-6 hs.
