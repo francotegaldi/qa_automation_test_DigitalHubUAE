@@ -2,6 +2,8 @@
 First of all I wanted to thank you all for taking the time to consider and review my code challenge!
 
 ## How to run
+NOTE: I'm assuming you have docker up to date and running on your computer.
+
 Standing in the root folder, you just need to run the docker compose file:
 ```
 docker-compose up
